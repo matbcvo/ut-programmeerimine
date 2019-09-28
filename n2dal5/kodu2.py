@@ -38,22 +38,20 @@ while (True):
             print("Vigane sisend! Proovime uuesti...")
     elif samm is 2: # Küsin pykkari x koordinaati
         try:
-            #pykkar_pos_x = int(input("Sisesta pykkari x positsioon: "))
-            pykkar_pos_x = random.randint(2, maailma_külg_b-1)
+            pykkar_pos_x = int(input("Sisesta pykkari x positsioon: "))
             if pykkar_pos_x < maailma_külg_b and pykkar_pos_x > 1:
                 samm = 3
             else:
-                print("Pykkari x-koordinaat ei tohi olla väiksem kui 1 ja suurem kui " + str(maailma_külg_b-1) + ".")
+                print("Pykkari x-koordinaat ei tohi olla väiksem kui 2 ja suurem kui " + str(maailma_külg_b-1) + ".")
         except:
             print("Vigane sisend! Proovime uuesti...")
     elif samm is 3: # Küsin pykkari y koordinaati
         try:
-            #pykkar_pos_y = int(input("Sisesta pykkari y positsioon: "))
-            pykkar_pos_y = random.randint(2, maailma_külg_a-1)
+            pykkar_pos_y = int(input("Sisesta pykkari y positsioon: "))
             if pykkar_pos_y < maailma_külg_a and pykkar_pos_y > 1:
                 samm = 4
             else:
-                print("Pykkari y-koordinaat ei tohi olla väiksem kui 1 ja suurem kui " + str(maailma_külg_a-1) + ".")
+                print("Pykkari y-koordinaat ei tohi olla väiksem kui 2 ja suurem kui " + str(maailma_külg_a-1) + ".")
         except:
             print("Vigane sisend! Proovime uuesti...")
     elif samm is 4: # Küsin pykkari suunda
