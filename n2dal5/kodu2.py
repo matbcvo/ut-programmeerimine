@@ -34,10 +34,8 @@ while (True):
                     print("Maailma külje pikkus peab olema paaritu arv!")
             else:
                 print("Maailma külje pikkus peab olema vähemalt 3!")
-                samm = 1
         except:
             print("Vigane sisend! Proovime uuesti...")
-            samm = 1
     elif samm is 2: # Küsin pykkari x koordinaati
         try:
             #pykkar_pos_x = int(input("Sisesta pykkari x positsioon: "))
