@@ -75,9 +75,9 @@ for i in range(maailma_külg_a):
     for j in range(maailma_külg_b):
         if j == pykkar_pos_x-1 and i == pykkar_pos_y-1:
             if pykkar_suund == "W":
-                maailm += ">"
-            elif pykkar_suund == "E":
                 maailm += "<"
+            elif pykkar_suund == "E":
+                maailm += ">"
             elif pykkar_suund == "N":
                 maailm += "^"
             elif pykkar_suund == "S":
