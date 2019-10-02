@@ -5,7 +5,7 @@ sihtfail = input("Palun sisesta sihtfaili nimi: ")
 sf_realaius = int(input("Palun sisesta sihtfaili realaius: "))
 
 with open(lähtefail, encoding="utf-8") as lf:
-    sisu = lf.read().rstrip()
+    sisu = lf.read().replace("\n", "")
 
 print("Esialgses tekstis oli " + str(len(sisu)) + " tähemärki.")
 
